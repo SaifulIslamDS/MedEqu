@@ -1,10 +1,66 @@
 [
     {
       "key": "001",
-      "medicineName": "",
-      "description": "",
-      "price": 1,
-      "img": ""
+      "equName": "Olive OLV Medical Oxygen Concentrator With 5 Liter",
+      "description": "Olive OLV-5 Medical oxygen concentrator adopts 220V/110V AC power supply, uses air as raw material and high-quality molecular sieve as adsorbent, and adopts the principle of pressure swing adsorption (PSA) to directly separate oxygen from nitrogen at normal temperature, oxygen of high purity is thereby produced.",
+      "price": 642,
+      "img": "https://i.ibb.co/YPMpmnz/Olive10-L-3.jpg"
+    },
+    {
+      "key": "002",
+      "equName": "Jumper Fingertip Pulse Oximeter JPD-500D",
+      "description": "Integrated with SPO2 probe and processing display module. Small in volume、light in weight and convenient in carrying. The operation of the product is simple, with low power consumption. SPO2, PR, and Redisplay,. Pulse rate value display, bar graph display. Low-voltage indication",
+      "price": 22,
+      "img": "https://i.ibb.co/DVXVcGg/oximeter01.jpg"
+    },
+    {
+      "key": "003",
+      "equName": "ALPK2-920 Digital Wrist Blood Pressure Monitor",
+      "description": "Measuring system perform measurement during pumping, Pump pressure range 0 to 300mmHg, Measuring range 50 to 250 mmHg (Systolic), 40 180 mmHg (Dystolic), 33-199 bpm (Heart rate) Error range: ±3 mmHg (cuff pressure), ±5% of result heart rate",
+      "price": 50,
+      "img": "https://i.ibb.co/QP5msGk/ALPK2.jpg"
+    },
+    {
+      "key": "004",
+      "equName": "Beurer IH 60 Nebulizer",
+      "description": "Nebulisers are medical devices that enable deposition (the dispersion and planting of water vapour and/or nebulised medication) into the deeper areas of the respiratory system, such as the lung tissue. Our IH60UK is small, lightweight and quiet. The nebuliser is the ideal companion for treating the upper and lower airways as well as colds, asthma and respiratory diseases when travelling.",
+      "price": 92,
+      "img": "https://i.ibb.co/M9gBRt7/nabu.jpg"
+    },
+    {
+      "key": "005",
+      "equName": "Beurer BM 28 upper arm Blood Pressure Monitor",
+      "description": "One for all, the blood pressure monitor has a universal cuff which is also suitable for circumferences of up to 42 cm in the upper arm. The integrated cuff location control provides additional clarity during each assessment about the precision of the recorded blood pressure values.",
+      "price": 46,
+      "img": "https://i.ibb.co/f0fgKcc/bp-monitor-01.png"
+    },
+    {
+      "key": "006",
+      "equName": "Beurer GS 235 glass bathroom scale",
+      "description": "Enchanting! The glass bathroom scale has a magic LED  the invisible display only appears during measurement. Secure Footing Thanks To The Non-Slip Surface. Elegant Surface With Matt Tile Structure. Magic Led: Invisible Display  Only Appearsduring Measurement. White, Easy-To-Read Display, Modern Dot Matrix Display",
+      "price": 36,
+      "img": "https://i.ibb.co/Y8jhCKt/weight.jpg"
+    },
+    {
+      "key": "007",
+      "equName": "Beurer MG 520 To Go Shiatsu massage cushion/pillow",
+      "description": "Shiatsu massage is a form of pressure massage, during which fingers, thumbs, palms, elbows, knees and the body weight are used to generate pressure and kneading movements.For muscle relaxation and regeneration after exercise. Versatile massage for the shoulders, neck, back, and legs",
+      "price": 110,
+      "img": "https://i.ibb.co/mbHRV4C/mmm.jpg"
+    },
+    {
+      "key": "008",
+      "equName": "Medicine Organizer Family Emergency First Aid Kit",
+      "description": "BE PREPARED FOR EMERGENCIES AND HOUSEHOLD REPAIRS. Be prepared during any situation and get this multi-function home, garage, home repair toolbox all in one compact and the portable carry case that has the strong handled built into it.",
+      "price": 22,
+      "img": "https://i.ibb.co/ryWr7wX/Tool-Box.jpg"
+    },
+    {
+      "key": "009",
+      "equName": "i-Chroma II Immunoassay Reader",
+      "description": "chroma™ II Reader is a portable fluorescence scanning instrument for measuring the concentration of target analytes in human blood, urine and other specimens which will be properly processed in accordance with appropriate ichroma™ Immunoassay Test procedures.",
+      "price": 2550,
+      "img": "https://i.ibb.co/B61t84X/I-Chroma.jpg"
     }
 ]
   
