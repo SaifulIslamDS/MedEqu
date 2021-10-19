@@ -1,1 +1,2 @@
-# Health related website
+# MedEqu - Equipment for Life
+

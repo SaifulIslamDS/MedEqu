@@ -14,7 +14,7 @@ const Products = () => {
         <div id="products" className="p-4">
             <div className="container mx-auto">
                 <h2 className="section-title text-4xl text-center">Our Products</h2>
-                <div className="grid grid-cols-3 gap-32">
+                <div className="grid grid-cols-3 gap-16">
                     {
                         //loop through products with map method
                         products.map(product => <Product

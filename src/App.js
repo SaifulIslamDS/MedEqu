@@ -3,11 +3,11 @@ import Header from './Shared/Header/Header';
 import Home from './Pages/Home/Home';
 import Footer from './Shared/Footer/Footer';
 import NotFound from './Shared/NotFound/NotFound';
+import Login from './Pages/Login/Login/Login';
 
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import Products from './Pages/Home/Products/Products';
-import Login from './Pages/Home/Login/Login/Login';
 
 function App() {
   return (
