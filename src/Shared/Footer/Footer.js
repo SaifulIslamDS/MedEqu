@@ -1,9 +1,10 @@
 import React from 'react';
 import footerLogo from '../../img/medEqu.png';
+import './Footer.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -21,12 +22,20 @@ const Footer = () => {
                         <h3 className="footer-title">Our social pages</h3>
                         <div className="social-icon">
                             <FontAwesomeIcon icon={faFacebook} />
+                            <FontAwesomeIcon icon={faTwitter} />
+                            <FontAwesomeIcon icon={faLinkedin} />
+                            <FontAwesomeIcon icon={faInstagram} />
                         </div>
-                        
-                        
-                    
                     </div>
-                    <div>Hello</div>
+                    <div>
+                        <h3 className="footer-title">Information Links</h3>
+                        <ul className="info-list">
+                            <li>About</li>
+                            <li>Contact</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms and Conditions</li>
+                        </ul>
+                    </div>
                 </div>   
             </div>        
         </footer>

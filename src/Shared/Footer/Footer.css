@@ -1,0 +1,29 @@
+#footer {
+    background-color: #041527;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-logo {
+    width: 50%;
+}
+.footer-title {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.social-icon svg {
+    color: white;
+    font-size: 32px;
+    margin-right: 22px;
+}
+
+.info-list li {
+    font-size: 18px;
+    color: aqua;
+    cursor: pointer;
+}
+
+.info-list li:hover {
+    color: royalblue;
+}
