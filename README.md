@@ -1,7 +1,6 @@
 # MedEqu - Equipment for Life
 
-## Live site link: 
-[MedEqu](https://medical-equipment-mededu.web.app/)
+## Live site link: [MedEqu](https://medical-equipment-mededu.web.app/)
 
 ### Website Description
 1. There are four sections in homepage. <br>

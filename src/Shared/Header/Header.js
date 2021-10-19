@@ -11,7 +11,7 @@ const Header = () => {
             <div className="container mx-auto">
                 <div className="grid grid-cols-2 gap-4">
                     <div> 
-                        <Link to="/home">
+                        <Link to="/">
                             <img className="site-logo" src={logo} alt="" /> 
                         </Link>
                     </div>
