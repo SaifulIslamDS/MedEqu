@@ -7,8 +7,9 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <nav className="p-4">
-                <Link as={HashLink} to="/home#home">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link as={HashLink} to="/home#products">Products</Link>
+                <Link to="/login">Login</Link>
             </nav>
         </div>
     );

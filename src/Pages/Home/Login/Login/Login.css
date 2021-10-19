@@ -1,0 +1,10 @@
+#login-form input {
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+}
+
+#login-form label {
+    font-size: 20px ;
+    padding: 10px 0;
+}

@@ -7,6 +7,7 @@ import NotFound from './Shared/NotFound/NotFound';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import Products from './Pages/Home/Products/Products';
+import Login from './Pages/Home/Login/Login/Login';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
             </Route>
             <Route path="/products">
               <Products></Products>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
             </Route>
             <Route path="*">
               <NotFound></NotFound>
