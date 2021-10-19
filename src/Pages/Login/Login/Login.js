@@ -10,10 +10,6 @@ initializeAuthentication();
 // declare google provider 
 const googleProvider = new GoogleAuthProvider();
 
-
-
-
-
 const Login = () => {
     // User state for google and github auth
     const [user , setUser] = useState({});
@@ -139,16 +135,15 @@ const Login = () => {
     const handlePasswordChange = e => {
         setPassword(e.target.value);
     }
-    
     const toggleLogin = e => {
         setIsLogIn(e.target.checked);
     }
 
-
-
     return (
         <div id="login-page" className="container mx-auto"> 
-            <h2 className="text-2xl text-center">Login</h2>
+            <h2 className="text-5xl text-center m-10">
+                {isLogIn ? 'Login' : 'Registration'} Page
+            </h2>
 
             <div className="grid grid-cols-2 gap-40 text-justify">
                 <div>
@@ -181,16 +176,14 @@ const Login = () => {
 
                     <form onSubmit={handleRegistration} id="login-form">
 
-                        <h2>Please {isLogIn ? 'Login' : 'Register'}</h2>
+                        <h2 className="text-4xl pb-10">Please {isLogIn ? 'Login' : 'Register'}</h2>
 
                         { !isLogIn && ( 
                             <div>
                                 <label htmlFor="userName">Name: </label>
-                                <input onBlur={handleNameChange} type="text" name="userName" id="userName" />
+                                <input onBlur={handleNameChange} type="text" name="userName" id="userName" className="mb-4" />
                             </div>
-                        ) 
-                        
-                        
+                            )                     
                         }
                         
                         <div>
@@ -200,18 +193,21 @@ const Login = () => {
 
                         <div>
                             <label htmlFor="password">Password: </label>
-                            <input nBlur={handlePasswordChange} type="password" name="password" id="password" required />
+                            <input nBlur={handlePasswordChange} type="password" name="password" id="password" className="mb-4" required />
                         </div>
 
-                        <button type="submit" className="btn-submit">
-                            {isLogIn ? 'Login' : 'Register'}
-                        </button>
-
-                        
                         <div>
+                            <button type="submit" className="bg-gray-700 px-5 py-2 text-white">
+                            {isLogIn ? 'Login' : 'Register'}
+                            </button>
+                        </div>
+                        
+                        <br />
+
+                        <div className="text-left">
                             <input onChange={toggleLogin} type="checkbox" id="checkbox" />
                             <label htmlFor="checkbox">
-                                Already Registered?
+                                    Already Registered?
                             </label>
                         </div>
 
@@ -219,14 +215,14 @@ const Login = () => {
                             <p>{error}</p>
                         </div>
 
-                        <button type="submit">
+                        <button type="submit" className="bg-gray-700 px-5 py-2 text-white">
                             Login
                         </button>
 
-                        <button onClick={handleResetPassword} type="button">
+                        <button onClick={handleResetPassword} type="button" className="bg-gray-700 ml-4 px-5 py-2 text-white">
                             Reset Password
                         </button>
-                        
+
                     </form>
 
                 </div>

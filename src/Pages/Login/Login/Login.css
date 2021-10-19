@@ -1,4 +1,11 @@
-#login-form input {
+#login-page {
+    margin-top: 20px ;
+    margin-bottom: 50px;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="password"] {
     width: 100%;
     border: 1px solid;
     padding: 10px;
@@ -7,4 +14,9 @@
 #login-form label {
     font-size: 20px ;
     padding: 10px 0;
+}
+
+
+input[type="checkbox"]{
+    margin-right: 20px;
 }
