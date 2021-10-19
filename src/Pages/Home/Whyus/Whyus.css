@@ -1,0 +1,35 @@
+#why-us {
+    background-color: #17224D;
+}
+
+.feature-item svg {
+    font-size: 66px;
+    margin-right: 30px;
+    background-color: darkmagenta;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.feature-item {
+    margin: 15px 0;
+}
+
+.feature-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-desc {
+    color: #d9c1c1;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+.content-col-right {
+    padding-left: 40px;
+}
+
+.content-col-left img {
+    border-radius: 20% 30% 20% 30%;
+}
